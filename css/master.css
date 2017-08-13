@@ -1,0 +1,48 @@
+header {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #86c88b;
+}
+
+footer {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #86c88b;
+}
+
+tbody {
+  font-style: oblique;
+}
+
+.vertical-line {
+  height: 100%;
+  border: 1px inset;
+  /* This is default border style for <hr> tag */
+}
+
+#smal-adjust {
+  color: white;
+}
+
+
+/*
+.border-passivo {
+  border-left: 1px inset;
+  color: black;
+}
+
+.border-ativo {
+  border-right: : 1px inset;
+  color: black;
+}
+
+@media (max-width: 993px) {
+  /* Border control
+  .border-passivo {
+    border-left: 0px;
+  }
+  .border-ativo {
+    border-right: 0px;
+  }
+}
+*/

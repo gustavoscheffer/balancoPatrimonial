@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/master.css">
+
+  <!-- Metas -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title> B.P Online</title>
+
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>B.P Online <small id="smal-adjust"> Simplificado</small></h1>
+    </div>
+  </header>
+  <main class="container" id="main-container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+              Inserir Nova Conta</h3>
+          </div>
+          <div class="panel-body">
+            <form class="form-group">
+              <div class="form-group">
+                <label for="nomeDaConta">Nome da Conta: </label>
+                <input type="text" class="form-control" id="nomeDaConta" placeholder="Nome da Conta">
+              </div>
+              <div class="form-group">
+                <label for="valorDaConta">Valor - (R$): </label>
+                <input type="text" class="form-control" id="valorDaConta" placeholder="Valor">
+              </div>
+              <div class="form-group">
+                <label> Tipo: </label>
+                <select class="form-control">
+                    <option>Crédito</option>
+                    <option>Débito</option>
+                    <option>Patrimonio Líquido</option>
+                  </select>
+              </div>
+              <button type="button" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <h3>Balanço Patrimonial</h3>
+        <div class="panel panel-success">
+          <div class="panel-body">
+            <div class="col-md-6 border-ativo">
+              <h4>Ativos</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered table-condensed table-hover">
+                  <thead>
+                    <th>Conta</th>
+                    <th>Valor</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <th>Total R$:</th>
+                    <th>00,00</th>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-6 border-passivo">
+              <h4>Passivos</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered table-condensed table-hover">
+                  <thead>
+                    <th>Conta</th>
+                    <th>Valor</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <th>Total R$:</th>
+                    <th>00,00</th>
+                  </tfoot>
+                </table>
+              </div>
+              <h4>Patrimonio Líquido</h4>
+              <div class="table-responsive">
+                <table class="table table-bordered table-condensed table-hover">
+                  <thead>
+                    <th>Conta</th>
+                    <th>Valor</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                    <tr>
+                      <td>Entrada1</td>
+                      <td>Entrada2</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <th>Total R$:</th>
+                    <th>00,00</th>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <hr class="vertical-line">
+              <div class="col-md-6">
+                <th>Total Ativos (R$): 00,00</th>
+              </div>
+              <div class="col-md-6">
+                <th>Total Passivos (R$): 00,00</th>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="contaier">
+    <address>
+      <strong>Twitter, Inc.</strong><br>
+      1355 Market Street, Suite 900<br>
+      San Francisco, CA 94103<br>
+      <abbr title="Phone">P:</abbr> (123) 456-7890
+    </address>
+  </footer>
+</body>
+
+<script type="text/javascript" src="js/masks.js"></script>
+<!-- jquery-1.12.4 -->
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</html>
